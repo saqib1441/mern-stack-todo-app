@@ -1,0 +1,35 @@
+/* Unversal Styling */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  border: none;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a202b;
+}
+
+/* Container */
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* Media Queries For Small Devices */
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .container {
+    width: 90%;
+  }
+}
+
+/* Media Queries For Medium Devices */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    width: 70%;
+  }
+}

@@ -1,0 +1,75 @@
+/* New Container */
+.new-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #a9ddf8;
+  padding-top: 3rem;
+  gap: 1rem;
+  width: 50%;
+  margin: auto;
+}
+
+.new-container .new-heading {
+  font-size: 3rem;
+}
+
+/* New Todo Form */
+.new-form {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+.new-form input {
+  background-color: #232933;
+  border-radius: 4px;
+  padding: 0 1rem;
+  color: white;
+  width: 100%;
+}
+
+.new-form .btn {
+  background-color: #a9ddf8;
+  padding: 0.6rem 2rem;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  transition: all 0.3s;
+  color: #1a202b;
+  width: fit-content;
+}
+
+.new-form .btn:hover {
+  cursor: pointer;
+  border-color: #a9ddf8;
+  background-color: transparent;
+  color: #a9ddf8;
+}
+
+/* Home Btn */
+.new-btn {
+  background: #a9ddf8;
+  display: flex;
+  width: 100%;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 0;
+  color: #232933;
+  border: 2px solid transparent;
+  transition: all 0.3s;
+}
+
+.new-btn:hover {
+  color: #a9ddf8;
+  border-color: #a9ddf8;
+  background-color: transparent;
+}
+
+/* Media Querries for Medium Devices */
+@media screen and (max-width: 1024px) {
+  .new-container {
+    width: 100%;
+  }
+}
